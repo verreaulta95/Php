@@ -36,11 +36,11 @@
         </div>
     </div>
     </body>
-    <div class="footer">
-        <footer>
-            <?php
-            include 'footer.php';
-            ?>
-        </footer>
-    </div>
+<div class="footer">
+    <footer>
+        <?php
+        include 'footer.php';
+        ?>
+    </footer>
+</div>
 </html>
