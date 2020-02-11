@@ -4,5 +4,6 @@
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Aeroport" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/AeroportV2" vcs="Git" />
+    <mapping directory="https://github.com/verreaulta95/Php" vcs="Git" />
   </component>
 </project>
