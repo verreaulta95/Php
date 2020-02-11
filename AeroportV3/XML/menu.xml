@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<listeJeux>
+    <jeu>
+        <jeuFr>Jouer a The Witcher 3</jeuFr>
+        <jeuAng>Play The Witcher 3</jeuAng>
+        <lien>https://fr.wikipedia.org/wiki/The_Witcher_3:_Wild_Hunt</lien>
+    </jeu>
+    <jeu>
+        <jeuFr>Jouer a Anno 1800</jeuFr>
+        <jeuAng>Play Anno 1800</jeuAng>
+        <lien>https://www.ubisoft.com/fr-ca/game/anno-1800</lien>
+    </jeu>
+    <jeu>
+        <jeuFr>Jouer a Rocket League</jeuFr>
+        <jeuAng>Play Rocket League</jeuAng>
+        <lien>https://fr.wikipedia.org/wiki/Rocket_League</lien>
+    </jeu>
+</listeJeux>

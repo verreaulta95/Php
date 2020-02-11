@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<listeUser>
+    <user>
+        <nom>Verreault</nom>
+        <prenom>Alex</prenom>
+        <email>veral1533317@etu.cegepjonquiere.ca</email>
+        <password>bonjour1</password>
+    </user>
+    <user>
+        <nom>Verreault</nom>
+        <prenom>Alexandre</prenom>
+        <email>veral1533318@etu.cegepjonquiere.ca</email>
+        <password>bonjour2</password>
+    </user>
+    <user>
+        <nom>Tremblay</nom>
+        <prenom>Marc</prenom>
+        <email>trema7133351@etu.cegepjonquiere.ca</email>
+        <password>bonjour3</password>
+    </user>
+    <user>
+        <nom>admin</nom>
+        <prenom>admin</prenom>
+        <email>admin@admin.com</email>
+        <password>admin</password>
+    </user>
+</listeUser>
