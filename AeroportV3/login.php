@@ -1,7 +1,5 @@
 <! DOCTYPE html>
-<meta charset="utf-8">
-<title id="Titre">Alex's Airline</title>
-<link rel="stylesheet" type="text/css" href="CSS/Styles.css">
+
 
 <?php
 session_start();
@@ -20,6 +18,9 @@ setcookie($cookie_name,$cookie_value,$expire);
 <html>
     <div id="header">
         <header>
+            <meta charset="utf-8">
+            <title id="Titre">Alex's Airline</title>
+            <link rel="stylesheet" type="text/css" href="CSS/Styles.css">
             <p><strong>Header</strong></p>
         </header>
     </div>

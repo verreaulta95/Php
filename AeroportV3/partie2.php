@@ -1,7 +1,5 @@
 <! DOCTYPE html>
-<meta charset ="utf-8">
-<title>Alex's Airline</title>
-<link href="CSS/Styles.css" rel="stylesheet" type="text/css">
+
 <div>
     <?php
     $COOKIE ="";
@@ -15,6 +13,9 @@
 <html>
     <div id="headerPart2">
         <header>
+            <meta charset ="utf-8">
+            <title>Alex's Airline</title>
+            <link href="CSS/Styles.css" rel="stylesheet" type="text/css">
             <div>
                 <?php
                     include 'header.php';
