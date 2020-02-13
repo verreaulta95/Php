@@ -1,15 +1,16 @@
-<! DOCTYPE html>
+ <?php
 
-<div>
-    <?php
-    $COOKIE ="";
+    session_start();
 
     if(isset($_COOKIE["utilisateur"]))
     {
         echo "Bienvenu chez Alex's AirLine : ".$_COOKIE["utilisateur"];
+
+        setcookie($cookie_value,"", time() - 3600);
     }
-    ?>
-</div>
+
+?>
+<! DOCTYPE html>
 <html>
     <div id="headerPart2">
         <header>
@@ -18,6 +19,7 @@
             <link href="CSS/Styles.css" rel="stylesheet" type="text/css">
             <div>
                 <?php
+                    //header("location:www/AeroportV3/login.php");
                     include 'header.php';
                 ?>
             </div>

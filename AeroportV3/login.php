@@ -1,20 +1,18 @@
-<! DOCTYPE html>
-
-
 <?php
-session_start();
+    session_start();
 
-$cookie_name = "";
-$cookie_value = "Toto";
-$expire = time() + 86400;
+    $cookie_name = "utilisateur";
+    $cookie_value = "";
 
-/*  Nombre de secondes dans une journee = 86400
-    Si on veut rajouter des journees,
-    juste a multiplier * nombre jours
-*/
+    /*  Nombre de secondes dans une journee = 86400
+        Si on veut rajouter des journees : 86400 * nombre de jours
+    */
 
-setcookie($cookie_name,$cookie_value,$expire);
+    $expire = time() + 86400*7;
+    setcookie($cookie_name,$cookie_value,$expire);
 ?>
+
+<! DOCTYPE html>
 <html>
     <div id="header">
         <header>
@@ -38,8 +36,8 @@ setcookie($cookie_name,$cookie_value,$expire);
                 </label>
                 <label for="langue">
                     <select id="liste">
-                        <option>Francais</option>
-                        <option>Anglais</option>
+                        <option name="francais" id="francais">francais</option>
+                        <option name="anglais" id="anglais" >anglais</option>
                     </select>
                 </label>
                 <div class="inscription">

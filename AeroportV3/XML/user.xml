@@ -14,12 +14,6 @@
         <password>bonjour2</password>
     </user>
     <user>
-        <nom>Tremblay</nom>
-        <prenom>Marc</prenom>
-        <email>trema7133351@etu.cegepjonquiere.ca</email>
-        <password>bonjour3</password>
-    </user>
-    <user>
         <nom>admin</nom>
         <prenom>admin</prenom>
         <email>admin@admin.com</email>
