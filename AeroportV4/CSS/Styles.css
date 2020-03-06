@@ -1,0 +1,79 @@
+/* -------------------  AEROPORT PARTIE 1 ------------------- */
+header{
+    display:flex;
+    flex-direction: column;
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+    height: 23%;
+    color:white;
+}
+h1{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+body{
+    background: url("/AeroportV4/Images/Sky_Airline.jpg");
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+label{
+    border: 2px solid black;
+    margin-bottom: 10px;
+    width : 15%;
+}
+input{
+    width:100%;
+    text-align: center;
+}
+.inscription{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+}
+#body{
+    height: 52%;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    justify-content: space-evenly;
+}
+.footer{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+    height : 23%;
+    text-align: center;
+    border: 2px solid black;
+}
+#choixLangue{
+    width:100%;
+    text-align: center;
+}
+/* -------------------  AEROPORT PARTIE 2 ------------------- */
+
+#bodyPart2{
+    border: 2px solid black;
+    height: 52%;
+    display:flex;
+}
+#block1{
+    border: 2px solid black;
+    height:100%;
+    width:30%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#block2{
+    border: 2px solid black;
+    height:100%;
+    width:70%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
